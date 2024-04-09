@@ -1,0 +1,9 @@
+---
+mapping:
+  ? >
+    key
+  :
+  : value
+  ? - a
+    - b
+  :
