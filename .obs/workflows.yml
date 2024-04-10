@@ -1,0 +1,8 @@
+pr:
+  steps:
+  - branch_package:
+      source_project: home:tinita:perlmodules
+      source_package: perl-YAML-PP
+      target_project: home:tinita:perlmodules:CI
+  filters:
+    event: pull_request
